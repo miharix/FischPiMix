@@ -1,0 +1,7 @@
+!!! Waring dont build this circuit if you dont know how to fix it !!!
+
+This circuit version contains at least 2 known bugs:
+
+1. Battery polarity protection is wrong -> connect batery wrong and your Raspbery Pi is for trash !
+
+2. RsPi GPIO protection against wrong direction has a little bit to big rezistors (for RsPi specification) in special cases it could draw to much mA for RsPi GPIO
